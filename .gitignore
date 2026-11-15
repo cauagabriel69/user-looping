@@ -1,6 +1,3 @@
-Abaixo está o texto estruturado em Markdown pronto para copiar e colar no arquivo `README.md` do seu repositório, documentando a arquitetura concorrente, as dependências e os quatro modos de rotação de IP do script `main.py`.
-
-```markdown
 # Automação de Requisições em API com Rotação Turbo de IP
 
 Script em Python desenvolvido com arquitetura **Produtor-Consumidor multithread** para automação e testes de estresse de requisições HTTP diretas (`POST` em JSON) na rota `/api/auth/register`, operando exclusivamente via sessões de rede (`requests.Session`) sem sobrecarga de navegadores headless.
